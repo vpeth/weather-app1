@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+        .container {
+          border: 60px outset #8064e9;
+          border-radius: 30px;
+          margin: 60px auto 50px auto;
+          padding: 20px;
+          max-width: 400px;
+        }
+        .form-group {
+            display: block;
+          margin: 30px auto;
+          text-align: center;
+          font-weight: bold;
+        }
+
+        .header-container {
+          margin-bottom: 30px;
+          text-align: center;
+          color: rgb(242, 82, 133);
+          font-weight: 900;
+
+        }
+
+        .button {
+          display: block;
+          margin: 0 auto;
+          border: none;
+          color:white;
+          background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+          border-radius: 3px;
+          border: 4px outset black;
+          border-width: 10px 1.50em;
+          cursor: pointer
+          transition: background-color 0.3 ease;
+          font-size: 14px;
+          font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h1 class="header">Welcome Back</h1>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="email">Enter your email adress:</label>
+          <input type="email" id="email" required autofocus />
+        </div>
+        <div class="form-group">
+          <label>Enter your password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Login" class="button" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
